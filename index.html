@@ -10,9 +10,10 @@
 <body>
     <div class="app">
         <h1>Simple Quiz</h1>
-        <div class="quiz">
+        <div class="quiz" aria-labelledby="question" role="region">
             <h2 id="question">Question goes here</h2>
-            <div id="answer-buttons">
+            <label for="answer-buttons"><span class="sr-only">Answers</span></label>
+            <div id="answer-buttons" name="answerButtons" role="region">
                 <button class="btn">Answer 1</button>
                 <button class="btn">Answer 2</button>
                 <button class="btn">Answer 3</button>

@@ -50,7 +50,7 @@ body{
     transition: all 0.3s;
 }
 
-.btn:hove:not([disabled]) {
+.btn:hover:not([disabled]) {
     background: #222;
     color: #fff;
 }
@@ -78,4 +78,16 @@ body{
 
 .incorrect{
     background: #ff9393;
+}
+
+.sr-only{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
 }

@@ -25,6 +25,15 @@ const questions = [
             {text: "Africa", correct: false},
             {text: "Arctic", correct: false},
         ]
+    },
+    {
+        question: "Which term refers to the distance around a circle?",
+        answers: [
+            {text: "Diameter", correct: false},
+            {text: "Circumference", correct: true},
+            {text: "Radius", correct: false},
+            {text: "Tangent", correct: false},
+        ]
     }
 ];
 
